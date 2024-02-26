@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <script type="text/Javascript">
+        function msg() {
+            alert("Login in successful                                                                                                                                                                                                                        ")
+        }
+    </script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body {
+            background-image: linear-gradient(to right, #fc5c7d, #6a62fb);
+        }
+
+        .main {
+            width: 100%;
+            /* border: 1px solid red; */
+            padding-bottom: 80px;
+            /* padding-top: 50px;                                                                                                                                                                      
+            padding-bottom: 50px; */
+            margin-top: 1px;
+            padding-top: 20px;
+        }
+
+        .main_inner {
+            width: 450px;
+            height: 100%;
+            border: 1px solid black;
+            margin: auto;
+            margin-top: 10%;
+            background-color: white;
+            border-radius: 15px;
+
+            /* padding-top: 80px; */
+        }
+
+        .box {
+            width: 80%;
+            /* border: 1px solid green; */
+            margin: auto;
+            /* padding: 20%;
+            padding-top: 10px; */
+            line-height: 30px;
+        }
+
+        .box h2 {
+            text-align: center;
+            font-family: sans-serif;
+            /* border: 1px solid blue; */
+            margin-bottom: 10px;
+        }
+
+        .input {
+            border: 0px solid red;
+            display: block;
+            margin: 8px 0px 20px 0px;
+            padding: 8px 0px 8px 0px;
+            border-bottom: 1px solid burlywood;
+            width: 95%;
+        }
+
+        .user {
+            width: 100%;
+            border: 0px solid red;
+        }
+
+        .snup {
+
+            text-align: right;
+        }
+
+        a {
+            text-decoration: none;
+            color: black;
+        }
+
+        .btn {
+            text-align: center;
+            margin: 15px;
+
+
+        }
+
+        .or {
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        .link {
+            text-align: center;
+            margin: 15px;
+            display: flex;
+            justify-content: center;
+            /* margin-top: 50px; */
+        }
+
+        .up {
+            text-align: center;
+            margin: 10px;
+            /* margin-top: 300px; */
+            padding-top: 100px;
+        }
+
+        input[type=button] {
+            height: 30px;
+            width: 80%;
+            border-radius: 20px;
+            background-image: linear-gradient(to right, #fc5c7d, #6a62fb);
+        }
+
+        .facebook {
+            /* border: 1px solid; */
+            width: 50px;
+            margin-right: 10px;
+            border-radius: 45%;
+            color: rgb(13, 130, 240);
+
+        }
+
+        .twitter {
+            width: 50px;
+            margin-right: 20px;
+            color: rgb(9, 199, 247);
+        }
+
+        .instagram {
+            color: rgb(228, 64, 95);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <div class="main_inner">
+            <div class="box">
+                <h2>Login</h2>
+                <form action="">
+                    <div class="user">
+                        <label for="">Username:</label>
+                        <input type="text" placeholder="👤 Type your username" class="input">
+                    </div>
+                    <div class="user">
+                        <label for="">Password:</label>
+                        <input type="text" placeholder="🔑 Type your password" class="input">
+                    </div>
+                    <div class="snup">
+                        <a href="Forget password">Forget passward?</a>
+                    </div>
+                    <div class="btn"><input type="button" value="Login" onclick="msg()" /></div>
+                    <div class="or">Or Sign Up Using</div>
+                    <div class="link">
+                        <div class="facebook"><i class="fa fa-facebook fa-2x"></i></div>
+                        <div class="twitter"><i class="fa fa-twitter fa-2x"></i></div>
+                        <div class="instagram"><i class="fa fa-instagram fa-2x"></i></div>
+                    </div>
+                    <div class="up">
+                        <h3>Or Sign Up Using</h3>
+                        <a href="sing up">SIGN UP</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
